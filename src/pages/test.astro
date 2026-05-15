@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/BlogPost.astro";
+import Counter from "../components/Counter";
 ---
 
 <Layout
@@ -14,4 +15,5 @@ import Layout from "../layouts/BlogPost.astro";
   >
     Click me
   </button>
+  <Counter client:visible title="MeoMeo" />
 </Layout>
